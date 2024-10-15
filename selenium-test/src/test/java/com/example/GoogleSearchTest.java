@@ -15,9 +15,9 @@ public class GoogleSearchTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public GoogleSearchTest(String testName) // Changed from AppTest to GoogleSearchTest
     {
-        super( testName );
+        super(testName);
     }
 
     /**
@@ -25,14 +25,14 @@ public class GoogleSearchTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite(GoogleSearchTest.class); // Changed from AppTest.class to GoogleSearchTest.class
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigorous Test :-)
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue(true);
     }
 }
